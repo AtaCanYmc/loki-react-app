@@ -1,0 +1,49 @@
+.wifi-form {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34;
+    width: 100%;
+    height: 100%;
+    border-color: #060b26;
+    margin: auto;
+
+    .header-row {
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+    .input-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75%;
+        padding: 5px;
+        margin: 10px 10px 10px 10px;
+
+        .simple-checkbox-container {
+            display: flex;
+            align-items: center;
+            margin: 30px 0 0 0;
+        }
+    }
+
+    .button-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 75%;
+        padding: 15px;
+
+        .simple-hover-button-container {
+            width: 49%;
+        }
+    }
+
+}

@@ -1,0 +1,83 @@
+.code-modal-container {
+  margin: 1% 2.5% 1% 2.5%;
+  width: 95%;
+
+  .code-editor {
+    width: 100%;
+    background-color: #1d1e22;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 2px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.57px;
+    color: rgb(212 212 212);
+  }
+
+  .icon {
+    width: 20px;
+    transition: .2s ease;
+
+    &:hover {
+      cursor: pointer;
+      border-radius: 50px;
+      background-color: #6e7281;
+    }
+  }
+
+  .editor-content {
+    margin: 0 10px 10px;
+    color: white;
+
+    .color-0 {
+      color: rgb(86 156 214);
+    }
+
+    .color-1 {
+      color: rgb(182 206 168);
+    }
+
+    .color-2 {
+      color: rgb(156 220 254);
+    }
+
+    .color-3 {
+      color: rgb(207 146 120);
+    }
+  }
+
+  .property {
+    margin-left: 30px;
+
+    &:hover {
+      cursor: text;
+    }
+  }
+
+  .color-preview-1, .color-preview-2 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 3px;
+  }
+
+  .color-preview-1 {
+    background-color: #1d1e22;
+  }
+
+  .color-preview-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
